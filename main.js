@@ -1,8 +1,8 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
-function itIsLong(str) {
-    if(str.length >20 ) {
+function isItLong(str) {
+    if (str.length >20 ) {
       return "That's a long string!";
 
   }
@@ -44,19 +44,6 @@ function personsHeight(name) {
   }
 
     return "I don't know everyone's height!";
-
-
-
-
-  switch (name){
-    case "Shaq":
-      return 85;
-    case "Zooey":
-      return 65;
-    default:
-      return "I don't know everyone's height!";
-
-  }
 
 }
 
